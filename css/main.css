@@ -3655,7 +3655,7 @@ footer .header-menu ul li {
 .modal {
     display: none;
     /* Hidden by default */
-    position: absolute;
+    position: fixed;
     /* Stay in place */
     z-index: 99999;
     /* Sit on top */
