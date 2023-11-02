@@ -1,0 +1,3642 @@
+/****************************** Responsive CSS **********************/
+@media (max-width:767px) {
+
+    .banner-btn {
+        width: 75%;
+    }
+
+    .small-text-pod-after-banner .speak-btn-wrap {
+        margin-top: 20px;
+    }
+
+    .cookies-wrap {
+        width: 100% !important;
+    }
+
+    .content-wrap {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .two-div-row {
+        flex-direction: column;
+    }
+
+    .two-div-row .small-text-after-top-banner {
+        padding: 20px;
+    }
+
+    .netsuite-banner .top-banner-text {
+        margin-top: 20px;
+    }
+
+    .aws-certifi-wrap .aws-certifi-title {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .aws-certifi-wrap .aws-certifi-title h2 {
+        width: 100%;
+        font-size: 33px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .aws-certifi-wrap .aws-certifi-imgs {
+        flex-direction: column;
+    }
+
+    .contact-content-wraper {
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+        padding: 15px;
+    }
+
+    .cloud-logos-img {
+        left: 22.7143px !important;
+    }
+
+    .cloud-logos-img img {
+        width: 154px !important;
+        height: 16px !important;
+    }
+
+    .push-down-arrow {
+        display: none;
+    }
+
+    .join-netpace-team-today .career-heading {
+        font-size: 26px;
+    }
+
+    .join-netpace-team-today .career-heading-small-text {
+        font-size: 22px;
+        line-height: 24px;
+        margin: 0 0 35px;
+    }
+
+    .career-container-box-space .one-third-pod {
+        margin-bottom: 30px;
+    }
+
+    .career-heading-small-text {
+
+        padding: 0px 20px;
+    }
+
+    .tech-box-3-col {
+        position: relative;
+        transition: all 0.2s ease-out;
+        text-align: center;
+        justify-content: center;
+        padding: 70px 0px;
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+
+    .tech-box-3-col .creative-services-img {
+        bottom: 0;
+        left: 0px !important;
+        margin: auto;
+        position: absolute;
+        right: 0 !important;
+        top: 0;
+        vertical-align: middle;
+    }
+
+
+
+
+    .sitemap-container {
+        display: flex;
+        margin-top: 70px;
+        margin-bottom: 0px;
+    }
+
+    .sitemap-container div:nth-child(3) ul {
+
+        margin-top: 10px;
+
+    }
+
+    .sitemap-container {
+        display: flex;
+        margin-top: 70px;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+
+
+    .main-container .about-us-pod {
+        height: auto;
+        padding: 20px 0px;
+    }
+
+    .about-column-row .about-us-pod-img {
+        height: 220px;
+    }
+
+    .about-order-reverse {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-order-reverse .about-us-pod-img {
+
+        order: 2;
+    }
+
+    .job-openings-list-row {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .quote-wrapper {
+        padding: 30px 20px 10px;
+    }
+
+    .remodal-close {
+        background: white !important;
+        z-index: 22;
+    }
+
+    .job-detail-row {
+        margin-top: 0px;
+    }
+
+    .services-pod-small-text {
+        color: #404040;
+        margin: 10px 0px 0px;
+        text-align: center;
+    }
+
+    .web-dev-bullet-full-width ul li {
+        display: inline-block;
+        float: left;
+        margin-bottom: 15px;
+        width: 100%;
+        position: relative;
+        padding-left: 20px;
+        line-height: 21px;
+    }
+
+    .owl-item .one-third-pod-text {
+        padding: 0 16px 0px;
+    }
+
+
+    .job-openings-filled-row ul li {
+        font-size: 17px;
+    }
+
+    .msp-col ul li {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .creative-bullets ul li {
+        width: 95%;
+    }
+
+    .mobile-big-banner {
+        background-position: center;
+        height: 170px !important;
+        background-size: cover !important;
+        position: relative;
+    }
+
+    .mobile-big-banner::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(90deg, #000, #000);
+        opacity: 0.3;
+    }
+
+    .mobile-big-banner-zenddesk {
+        background-position: center;
+        height: 180px !important;
+        background-size: cover !important;
+        position: relative;
+    }
+
+    .mobile-big-banner-zenddesk .banner-btn {
+        display: inline-block;
+        margin-top: 44px;
+        padding: 12px 15px;
+        margin-left: 20px;
+    }
+
+    .mobile-big-banner-zenddesk::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(90deg, #000, #000);
+        opacity: 0.3;
+    }
+
+    .banner-container {
+        position: relative;
+        z-index: 1;
+    }
+
+    .mobile-big-banner .top-banner-text-small {
+        line-height: 20px;
+        /* display: none; */
+        width: 90%;
+    }
+
+    .job-openings-filled-row h2 {
+        text-align: center;
+        line-height: 30px;
+        font-size: 26px;
+    }
+
+
+
+    .inner-heading {
+        font-size: 26px;
+    }
+
+    .zendesk-wrap {
+        padding: 10px 20px 30px !important;
+    }
+
+    .zendesk-wrap img {
+        width: 95%;
+    }
+
+    .zd-title {
+        font-size: 42px;
+        text-align: center;
+
+    }
+
+    .zendesk-wrap p {
+        text-align: center;
+
+    }
+
+    /****************** Custom CSS *****************/
+
+
+    .new-landing-column .small-box-fluid {
+        width: 100%;
+    }
+
+    .new-landing-column .medium-box-fluid {
+        width: 100%;
+    }
+
+
+
+
+
+    .container-heading-text {
+        font-size: 40px;
+        color: #2a2e32;
+        text-align: center;
+        font-weight: 300;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        padding: 0px 10px;
+    }
+
+    .container-sub-text {
+        font-size: 24px;
+        line-height: 26px;
+        color: #2a2e32;
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 40px;
+        width: 80%;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+    .two-column-flex-row {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .msp-logo-right-col {
+        flex: 1;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .inner-heading {
+        padding: 0px 20px;
+    }
+
+
+
+    .web-dev-page-heading-container .creative-heading {
+
+        margin-bottom: 20px;
+
+    }
+
+
+    .services-row-col:nth-child(2) {
+        text-align: center;
+    }
+
+    .flex-half-col {
+        position: relative;
+        height: 300px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .creative-heading {
+        color: #2a2e32;
+        font-size: 26px;
+        font-weight: 300;
+        margin-bottom: 10px;
+        text-align: center;
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+
+    .flex-box {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+
+    .one-forth-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0px 20px;
+    }
+
+
+    .flex-pods-mobile {
+        flex-direction: row;
+    }
+
+    .flex-pods-mobile .one-third-pod {
+        margin-bottom: 20px;
+
+    }
+
+    .one-forth-pod {
+        display: inline-block;
+        margin-right: 9px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .one-forth-pod img {
+        width: 150px !important;
+    }
+
+    .old-tech-rows {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+
+    .old-tech-rows .one-third-pod {
+        margin-bottom: 20px;
+    }
+
+
+    .hide-on-mobile {
+        display: none !important;
+    }
+
+    .solutions-services-pod {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+
+    .case-container-box-space {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+
+
+
+    .career-box .one-third-pod-text {
+        height: auto !important;
+        margin-bottom: 50px;
+    }
+
+    .career-container-box-space {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .msp-staff-row-col {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0px 20px;
+
+    }
+
+    .msp-col {
+        padding: 20px;
+
+        margin-bottom: 20px;
+    }
+
+    .tech-box {
+        position: relative;
+        transition: all 0.2s ease-out;
+        text-align: center;
+        justify-content: center;
+        padding: 70px 0px;
+        flex-basis: 45%;
+        margin: 10px 0px;
+    }
+
+
+
+    .tech-box-row {
+        margin-bottom: 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0px 20px;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+    }
+
+
+
+    .job-openings-filled-row {
+        font-size: 36px;
+        color: #2e2e2e;
+        font-weight: 300;
+        margin: 40px 0px;
+        padding: 0px 20px;
+    }
+
+
+    .small-text-after-top-banner {
+        color: #413829;
+        font-size: 17px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    .job-openings-list-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 28px;
+        padding-left: 20px;
+        flex-wrap: wrap;
+    }
+
+    .job-openings-list-row ul {
+        position: relative;
+        flex-basis: 50%;
+    }
+
+    .services-pod {
+        border: 1px solid #ededed;
+        padding: 30px;
+        flex-basis: 23%;
+        margin: 10px 0px;
+    }
+
+    .services-parent-box {
+        display: flex;
+        margin-bottom: 0px;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+
+    .netpace-sol-txt {
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+
+    .netsol-text {
+        color: #fff;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
+
+    .services-row {
+        flex-direction: column;
+        padding: 20px;
+
+    }
+
+    .services-row-col {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .services-container-box-space {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .capabilities-include {
+        padding: 0px 20px;
+    }
+
+    .contact-us-container .col {
+        flex-basis: 100%;
+    }
+
+    .tp-bgimg::after {
+        background-color: rgba(0, 0, 0, 0.5);
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .job-detail-row p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .job-bottom-spacing {
+        line-height: 25px;
+        margin-bottom: 10px !important;
+    }
+
+    .case-modals-cols .modal-job-left-section {
+        width: 100%;
+    }
+
+    .case-modals-cols .modal-job-right-section {
+        width: 100%;
+    }
+
+    .see-more-services {
+        margin-top: 30px;
+    }
+
+    .direction-heading {
+        margin-top: 30px;
+    }
+
+    .route-from-san {
+        margin-top: 30px;
+    }
+
+    .modal-job-right-section ul li {
+        color: #413829;
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 20px;
+    }
+
+    .blank-space-30 {
+        float: left;
+        margin: 30px;
+        position: absolute;
+    }
+
+    .see-more-services .one-third-pod-text {
+        padding: 0;
+    }
+
+    .one-third-pod-btn-white {
+        margin-top: 0;
+    }
+
+    .banner-container {
+        display: table;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .services-container-box-space {
+        margin-bottom: 0;
+    }
+
+    .catering-services-pod p {
+        margin: 45px auto 40px;
+    }
+
+    .catering-services-pod a img {
+        vertical-align: middle;
+        width: 164px;
+    }
+
+    .web-dev-image-pod {
+        height: 280px;
+        overflow: hidden;
+    }
+
+    .one-third-pod-head-text {
+        padding: 26px 0;
+    }
+
+    .one-third-pod-small-text {
+        padding: 0;
+    }
+
+    .one-third-pod-btn {
+        padding: 27px 0;
+    }
+
+    .banner-big-heading {
+        font-size: 26px !important;
+    }
+
+    .banner-medium-heading {
+        font-size: 20px !important;
+    }
+
+    .banner-small-heading {
+        font-size: 15px !important;
+    }
+
+    .banner-medium-text {
+        color: #413829;
+    }
+
+    .banner-btn {
+        background-color: #ff0000;
+        padding: 17px 36px;
+        text-align: center;
+        font-size: 18px !important;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .banner {
+        height: 246px !important;
+    }
+
+    .slide-one {}
+
+    .slide-one-big-text {
+        left: 17px !important;
+        top: 75px !important;
+    }
+
+    .slide-one-small-text {
+        top: 105px !important;
+        left: 17px !important;
+    }
+
+    .slide-one-btn {
+        left: 17px !important;
+        padding: 15px 14px !important;
+        top: 135px !important;
+    }
+
+    .slide-one {}
+
+    .slide-two-big-text {
+        left: 17px !important;
+        top: 75px !important;
+    }
+
+    .slide-two-small-text {
+        top: 105px !important;
+        left: 17px !important
+    }
+
+    .slide-two-btn {
+        left: 17px !important;
+        padding: 15px 14px !important;
+        top: 135px !important;
+    }
+
+    .slide-two {}
+
+    .slide-two-big-text {
+        left: 17px !important;
+        top: 75px !important;
+    }
+
+    .slide-two-small-text {
+        top: 105px !important;
+        left: 17px !important
+    }
+
+    .slide-two-btn {
+        left: 17px !important;
+        padding: 15px 14px !important;
+        top: 135px !important;
+    }
+
+    .slide-three {}
+
+    .slide-three-big-text {
+        left: 17px !important;
+        top: 75px !important;
+    }
+
+    .slide-three-small-text {
+        top: 105px !important;
+        left: 17px !important
+    }
+
+    .slide-three-btn {
+        left: 17px !important;
+        padding: 15px 14px !important;
+        top: 135px !important;
+    }
+
+    .slide-four {}
+
+    .slide-four-big-text {
+        left: 17px !important;
+        top: 75px !important;
+    }
+
+    .slide-four-small-text {
+        top: 105px !important;
+        left: 17px !important
+    }
+
+    .slide-four-btn {
+        left: 17px !important;
+        padding: 15px 14px !important;
+        top: 135px !important;
+    }
+
+    .tparrows {}
+
+    .tp-leftarrow {
+        left: 14px !important
+    }
+
+    .tp-rightarrow {
+        right: 14px !important
+    }
+
+    .tparrows.preview1::after {
+        top: 90px !important;
+    }
+
+    .tparrows.preview1,
+    .tparrows.preview1::after {
+        line-height: 51px !important;
+    }
+
+    .mobile-banner-container {}
+
+    .web-dev {
+        width: 90%;
+    }
+
+    .web-dev-bullets-box {
+        padding: 0 16px;
+        width: 88%;
+    }
+
+    .web-dev-banner {
+        background-image: url("../images/enterprise-app-dev-banner.png");
+        background-size: cover;
+        float: left;
+        height: 125px;
+        width: 100%;
+
+    }
+
+    .it-eng-banner {
+        background-image: url("../images/It-engg-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 125px;
+        width: 100%;
+
+    }
+
+    .csr-banner {
+        background-image: url("../images/csr-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 125px;
+        width: 100%;
+
+    }
+
+    .diversity-banner {
+        background-image: url("../images/diversity-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 125px;
+        width: 100%;
+
+    }
+
+
+    .pharma-banner {
+        background-image: url("../images/risk-compliance-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 125px;
+        width: 100%;
+
+    }
+
+    .msp-main-banner {
+        background-image: url("../images/msp-inclusion-landing-banner.png");
+
+        float: left;
+        height: 125px;
+        width: 100%;
+
+    }
+
+    .professional-banner {
+        background-image: url("../images/professional-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 125px;
+        width: 100%;
+
+    }
+
+
+    .devops-banner {
+        background-image: url("../images/devops-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 125px;
+        width: 100%;
+
+
+    }
+
+    .healthcare-banner {
+        background-image: url("../images/healthcare-inner-banner.jpg");
+        background-size: 100%;
+        float: left;
+        height: 125px;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .clinical-life-sciences-banner-banner {
+        background-image: url("../images/clinical-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 125px;
+        width: 100%;
+
+    }
+
+
+
+
+    .msp-staff-banner {
+        background-image: url("../images/msp-program-support-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 125px;
+        width: 100%;
+
+    }
+
+    .market-banner {
+        background-image: url("../images/marketing-creative-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 125px;
+        width: 100%;
+
+
+    }
+
+    .web-dev-bullet-full-width {
+        width: 90%;
+    }
+
+    .web-dev-inner-bullet {
+        padding: 0;
+    }
+
+    .creative-image-pod {
+        height: auto;
+        overflow: hidden;
+    }
+
+    .creative-img-pod-mobile {
+        height: 200px;
+    }
+
+    .cloud-img-cloud-page {
+        height: 280px !important
+    }
+
+    .cloud-banner .top-banner-text {
+        color: #fff;
+        font-size: 26px;
+        font-weight: bold;
+        /*        margin-left: 35px;*/
+        margin-top: 25px;
+    }
+
+    .mobile-dev-bullets-container {
+        float: left;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+
+    .mobile-dev-banner {
+        background-image: url("../images/mobile-dev-banner.jpg");
+        background-size: cover;
+        float: left;
+        height: 130px;
+        width: 100%;
+
+    }
+
+    .cloud-banner {
+        height: 130px;
+        width: 100%;
+    }
+
+    .cloud-banner .top-banner-text-small {
+        width: 80%;
+    }
+
+    .cloud-small-heading {
+        margin-top: 30px;
+    }
+
+    .creative-small-heading {
+        margin-top: 30px;
+    }
+
+    .cloud-bullets {
+        width: 90%;
+    }
+
+    .bigdata-banner {
+        background-image: url("../images/big-data-banner.jpg");
+        background-size: cover;
+        float: left;
+        height: 130px;
+        width: 100%;
+
+    }
+
+    .ai-banner {
+        background-image: url("../images/ai-banner.jpg");
+        background-size: cover;
+        float: left;
+        height: 130px;
+        width: 100%;
+
+    }
+
+    .modal-job-left-section {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .remodal {
+        padding: 20px !important;
+    }
+
+    .job-detail-bottom-spacing {
+        display: inline-block;
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+
+    .job-detail-bottom-spacing:nth-child(4) {
+        margin-right: 0px;
+    }
+
+    .job-left-text {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+
+    .job-title {
+        text-align: center;
+        font-size: 23px;
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+
+    .job-apply-btn {
+        display: block;
+        font-size: 24px;
+        margin-top: 15px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .modal-job-right-section {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .mCSB_scrollTools {
+        right: -3px;
+    }
+
+    .modal-job-left-section img {
+        margin-bottom: 6px;
+        width: 80%;
+    }
+
+    .job-detail-row {
+        max-height: 360px;
+        min-height: 150px;
+    }
+
+    .job-apply-btn img {
+        vertical-align: text-top;
+    }
+
+    .job-calendar-details {
+        display: table;
+        margin: 0 auto;
+    }
+
+    .bigdata-banner .top-banner-text {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .web-dev-banner .top-banner-text {
+        margin-left: 20px;
+        margin-top: 28px;
+    }
+
+    .bigdata-banner .top-banner-text-small {
+        margin-left: 20px;
+    }
+
+    .main-container {
+        display: table;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header {
+        float: left;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        width: 100%;
+        height: 34px;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .logo {
+        display: inline-block;
+        float: left;
+        margin-left: 5px;
+        position: relative;
+        top: 3px;
+        width: 230px;
+    }
+
+    .menu-btn {
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+        width: 33px;
+    }
+
+    .services-logos {
+        padding: 0;
+        text-align: center;
+    }
+
+    .service-logo-pod {
+        display: inline-block;
+        float: left;
+        height: 95px;
+        position: relative;
+        width: 50%;
+    }
+
+    .service-logo-pod img {
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        vertical-align: middle;
+        width: 85px;
+    }
+
+    .service-logo-pod:last-child {
+        width: 100%;
+    }
+
+    .hide-desktop-ipad-content {
+        display: none !important;
+    }
+
+    .medium-box-fluid {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .small-box-fluid {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .network-image {
+        background-image: url("../images/img1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220px;
+    }
+
+    .mad-image {
+        background-image: url("../images/img2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220px;
+    }
+
+    .ewd-image {
+        background-image: url("../images/img3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220px;
+    }
+
+    .qa-image {
+        background-image: url("../images/img4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220px;
+    }
+
+    .box-content-text {
+        height: 245px;
+        padding: 0 30px;
+    }
+
+    footer {
+        padding: 12px 0;
+        text-align: center;
+    }
+
+    .service-image {
+        height: auto;
+        overflow: hidden;
+        width: 100%;
+    }
+
+
+    .new-landing-column .box-content-text {
+
+        padding: 20px;
+    }
+
+
+
+    .service-text {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    #landing-service .owl-nav {
+        bottom: 0;
+        display: table;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        top: 160px;
+        width: 100%;
+    }
+
+    .contact-form {
+        padding: 70px 20px 50px;
+    }
+
+    .contact-form-small-text {
+        width: auto;
+    }
+
+    .contact-form {
+        width: auto;
+    }
+
+    .group {
+        border-right: 0 none !important;
+        margin-bottom: 45px;
+        width: 100%;
+    }
+
+    .submit-btn {
+        clear: both;
+        display: table;
+        float: none;
+        margin: 0 auto;
+        width: 135px;
+    }
+
+    .service-banner {
+        background-image: url("../images/IT-consulting-services-banner.png");
+        height: 130px;
+        width: 100%;
+    }
+
+    .top-banner-text {
+        color: #fff;
+        font-size: 26px;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .one-third-pod {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .pod-image>img {
+        width: 100%;
+    }
+
+    .small-text-pod-after-banner {
+        padding: 0 20px;
+    }
+
+    .sol-cater-text {
+        font-size: 33px;
+        font-weight: 300;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        padding: 0 35px;
+    }
+
+    .catering-services-pod {
+        width: 100%;
+    }
+
+    .see-more-solutions {
+        display: none;
+    }
+
+    .small-text-pod-after-banner {
+        margin: 25px 0;
+    }
+
+    .cloudEnablement-banner {
+        background-image: url("../images/cloud-banner.jpg");
+        background-size: cover;
+        height: 130px;
+        width: 100%;
+    }
+
+    .blockchain-banner {
+        background-image: url(../images/blockchain-banner.jpg);
+        background-size: cover;
+        float: left;
+        height: 130px;
+        width: 100%;
+
+    }
+
+    .about-banner {
+        background-image: url("../images/about.jpg");
+        background-size: cover;
+        height: 130px;
+        width: 100%;
+
+    }
+
+    .case-banner {
+        background-image: url("../images/case-studies-banner.png");
+        background-size: cover;
+        float: left;
+        height: 130px;
+        width: 100%;
+    }
+
+    .case-study-center-heading {
+        color: #ff0000;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .case-slider {
+        width: 100% !important;
+    }
+
+    .slider-title {
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .case-study-center-small-text {
+        color: #413829;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+
+    .case-half-pod-container .half-pod-box {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .one-third-pod-text {
+        padding: 0 16px 30px;
+    }
+
+
+    .mobile-open-positions .one-third-pod-text {
+        padding: 0 16px 0px;
+    }
+
+    .solutions-small-service-text {
+        font-size: 32px;
+        margin-bottom: 20px;
+        margin-top: 45px;
+    }
+
+    .solutions-services-small-pods {
+        text-align: center;
+    }
+
+    .solutions-services-small-pods a div {
+        margin: 15px 0px
+    }
+
+    .hide-on-phone {
+        display: none !important;
+    }
+
+    .hide-mobile-content .web-dev-image-pod {
+        height: 310px;
+        margin-bottom: 25px;
+        overflow: hidden;
+    }
+
+    .solutions-one-third-pod {
+        height: auto;
+    }
+
+    .solutions-banner {
+        background-image: url("../images/banner-solutions.jpg");
+        background-size: cover;
+        float: left;
+        height: 130px;
+        width: 100%;
+
+    }
+
+    .top-banner-text-small {
+        color: #fff;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 7px;
+        height: 20px;
+        /* display: none; */
+    }
+
+    .half-pod-box {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .sub-bullet {
+        padding-left: 20px;
+    }
+
+    .about-us-pod-img {
+        height: 250px;
+    }
+
+    .about-us-pod-container div:nth-child(1) {
+        color: #413829;
+        display: inline-block;
+        font-size: 22px;
+    }
+
+    .about-us-pod-container div:nth-child(3) {
+        color: #413829;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 22px;
+        margin-top: 12px;
+        width: auto;
+    }
+
+    .about-us-pod-container div:nth-child(2) {
+        color: #010101;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .about-us-pod-container {
+        padding: 16px;
+    }
+
+    .about-us-pod {
+        height: auto;
+    }
+
+    .mobile-bottom-space-15 {
+        margin-bottom: 15px;
+    }
+
+    .row {
+        float: left;
+    }
+
+    .about-us-project-method {
+        padding: 0px 16px;
+    }
+
+    .about-us-project-method div:nth-child(1) {
+        color: #2a2e32;
+        font-size: 28px;
+        font-weight: 300;
+        margin-top: 15px;
+    }
+
+    .about-us-project-method div:nth-child(2) {
+        color: #413829;
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 24px;
+    }
+
+    .about-us-project-method ul li {
+        color: #413829;
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 20px;
+    }
+
+    .about-us-qa {
+        padding: 0 16px;
+    }
+
+    .about-us-qa p {
+        color: #413829;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .about-us-qa div:nth-child(1) {
+        color: #2a2e32;
+        font-size: 28px;
+        margin-bottom: 15px;
+
+    }
+
+    .career-banner {
+        background-image: url("../images/career.jpg");
+        background-size: cover;
+        float: left;
+        height: 130px;
+        width: 100%;
+
+    }
+
+    .box-content-button {
+        margin-top: 25px;
+    }
+
+    .contact-banner {
+        background-image: url("../images/contact.jpg");
+        background-size: cover;
+        float: left;
+        height: 130px;
+        width: 100%;
+
+    }
+
+    .contact-col-box {
+        margin: 25px 0 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 0;
+    }
+
+    .map-heading {
+        color: #2a2e32;
+        font-size: 32px;
+        font-weight: 300;
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    .google-map {
+        height: 280px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .career-container-box-space .one-third-pod-text {
+        height: 275px;
+        padding: 0 16px;
+    }
+
+    .mobile-open-positions .one-third-pod {
+        margin-bottom: 20px;
+    }
+
+    .mobile-career-contact .contact-form {
+        display: table;
+        margin: 20px auto 0;
+    }
+
+    .one-third-pod img {
+        width: 100%;
+    }
+
+    .one-third-pod-btn img {
+        width: auto;
+    }
+
+    .pushy ul li {
+        border-bottom: 1px solid #626262;
+    }
+
+    .pushy-submenu ul li:last-child {
+        border-bottom: 0px solid #626262;
+    }
+
+    .main-container-block {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .creative-banner {
+        background-image: url("../images/creative-banner.jpg");
+        background-size: cover;
+        float: left;
+        height: 130px;
+        width: 100%;
+
+    }
+
+    .creative-services-img {
+        width: auto !important;
+    }
+
+    .creative-bullets-box {
+        padding: 0 16px;
+        width: auto;
+    }
+
+    .creative-page-heading-container {
+        margin-bottom: 50px;
+        margin-top: 10px;
+        padding: 0px 20px;
+    }
+
+    .owl-nav {
+        display: table;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        top: -72px;
+        width: 98%;
+    }
+
+    .owl-dots {
+        display: table;
+        margin: 0 auto;
+        width: 186px;
+    }
+
+    .creative-services-img-pod {
+        height: 135px;
+        position: relative;
+    }
+
+    .mobile-dev-bullets-container .half-pod-box {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .services-container-box-space .one-third-pod-btn {
+        padding: 27px 0 0;
+    }
+
+    .services-page-pods .one-third-pod-btn {
+        padding: 27px 0 0;
+    }
+
+
+
+
+    .case-container-box-space .pod-image {
+        height: 180px;
+    }
+
+    .case-half-pod-container .half-pod-box .pod-image {
+        height: 200px;
+    }
+
+    .creative-banner .banner-container {
+        margin-top: 8px;
+    }
+
+    .bigdata-banner .banner-container {
+        margin-top: 31px;
+    }
+
+    .cloud-banner .banner-container {
+        margin-top: 20px;
+    }
+
+    .mobile-dev-banner .banner-container {
+        margin-top: 11px;
+    }
+
+    .web-dev-banner .banner-container {
+        margin-top: 11px;
+    }
+
+    .service-banner .banner-container {
+        margin-top: 14px;
+    }
+
+    .solutions-banner .banner-container {
+        margin-top: 14px;
+    }
+
+    .cloudEnablement-banner .banner-container {
+        margin-top: 12px;
+    }
+
+    .about-banner .banner-container {
+        margin-top: 12px;
+    }
+
+    .case-banner .banner-container {
+        margin-top: 10px;
+    }
+
+    .contact-banner .banner-container {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+
+    .nmsdc-banner-logo {
+
+        margin-left: 250px !important;
+
+    }
+
+
+    .tparrows.hidearrows {
+
+        opacity: 1 !important;
+    }
+
+
+
+    .job-openings-list-row ul:first-child:nth-last-child(n + 4) {
+        /* properties here */
+        flex: 1;
+    }
+
+
+    .job-openings-list-row ul:first-child:nth-last-child(n + 4)~ul {
+        /* properties here */
+        flex: 1;
+    }
+
+
+
+
+    .msp-col ul li {
+        font-size: 16px;
+        color: #2e2e2e;
+        margin-left: 20px;
+        margin-bottom: 12px;
+        line-height: 22px;
+    }
+
+    .fast100 {
+        margin-left: 130px !important;
+    }
+
+    .creative-page-heading-container {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .creative-heading {
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+
+
+
+    .container-heading-text {
+        font-size: 40px;
+        color: #2a2e32;
+        text-align: center;
+        font-weight: 300;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    .container-sub-text {
+        font-size: 24px;
+        line-height: 26px;
+        color: #2a2e32;
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 50px;
+        width: 80%;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .msp-col {
+        padding: 21px 14px;
+        border: 1px solid #b2b2b2;
+        flex-basis: 28%;
+    }
+
+
+    .tech-box img {
+        max-width: 100px;
+    }
+
+
+    .about-us-clients img {
+        max-width: 150px;
+    }
+
+
+    .tech-box {
+        position: relative;
+        transition: all 0.2s ease-out;
+        text-align: center;
+        justify-content: center;
+        padding: 70px 0px;
+        flex-basis: 30%;
+        margin: 10px 0px 10px 15px;
+    }
+
+    .tech-box-4-col {
+        position: relative;
+        transition: all 0.2s ease-out;
+        text-align: center;
+        justify-content: center;
+        padding: 70px 0px;
+        flex-basis: 45%;
+        margin-right: 20px;
+    }
+
+
+    .tech-box-row {
+        margin-bottom: 0px;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        padding: 0px;
+        justify-content: flex-start;
+    }
+
+    .about-us-clients-row {
+        justify-content: center;
+    }
+
+
+    .justify-center {
+        justify-content: center;
+    }
+
+    .capabilities-include {
+        padding: 0px 20px;
+    }
+
+    .case-container-box-space .pod-image {
+        height: 200px;
+    }
+
+    .case-half-pod-container .half-pod-box .pod-image {
+        height: 200px;
+    }
+
+    .hide-on-portrait {
+        display: none;
+    }
+
+    .slide-one {}
+
+    .slide-one-big-text {
+        left: 17px !important;
+        top: 75px !important;
+    }
+
+    .slide-one-small-text {
+        top: 105px !important;
+        left: 17px !important
+    }
+
+    .slide-one-btn {
+        left: 17px !important;
+        padding: 15px 14px !important;
+        top: 135px !important;
+    }
+
+    .slide-one {}
+
+    .slide-two-big-text {
+        left: 17px !important;
+        top: 75px !important;
+    }
+
+    .slide-two-small-text {
+        top: 105px !important;
+        left: 17px !important
+    }
+
+    .slide-two-btn {
+        left: 17px !important;
+        padding: 15px 14px !important;
+        top: 135px !important;
+    }
+
+    .slide-two {}
+
+    .slide-two-big-text {
+        left: 17px !important;
+        top: 75px !important;
+    }
+
+    .slide-two-small-text {
+        top: 105px !important;
+        left: 17px !important
+    }
+
+    .slide-two-btn {
+        left: 17px !important;
+        padding: 15px 14px !important;
+        top: 135px !important;
+    }
+
+    .slide-three {}
+
+    .slide-three-big-text {
+        left: 17px !important;
+        top: 75px !important;
+    }
+
+    .slide-three-small-text {
+        top: 105px !important;
+        left: 17px !important
+    }
+
+    .slide-three-btn {
+        left: 17px !important;
+        padding: 15px 14px !important;
+        top: 135px !important;
+    }
+
+    .slide-four {}
+
+    .slide-four-big-text {
+        left: 17px !important;
+        top: 75px !important;
+    }
+
+    .slide-four-small-text {
+        top: 105px !important;
+        left: 17px !important
+    }
+
+    .slide-four-btn {
+        left: 17px !important;
+        padding: 15px 14px !important;
+        top: 135px !important;
+    }
+
+    .case-modals-cols .modal-job-left-section {
+        width: 100%;
+    }
+
+    .case-modals-cols .modal-job-right-section {
+        width: 100%;
+    }
+
+    .one-third-pod-text {
+        padding: 0px 16px;
+    }
+
+    .case-container-box-space .one-third-pod .one-third-pod-text {
+        padding: 0px;
+    }
+
+    .banner-container {
+        display: table;
+        margin: 0 auto;
+        width: 94%;
+    }
+
+    .solutions-secondary-text {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .banner-big-heading {
+        font-size: 26px !important;
+    }
+
+    .banner-medium-heading {
+        font-size: 20px !important;
+    }
+
+    .banner-small-heading {
+        font-size: 15px !important;
+    }
+
+    .banner-medium-text {
+        color: #413829;
+    }
+
+    .banner-btn {
+        background-color: #ff0000;
+        padding: 17px 36px;
+        text-align: center;
+        font-size: 18px !important;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .slide-one {}
+
+    .slide-one-big-text {
+        left: 50px !important;
+        top: 45px !important;
+    }
+
+    .slide-one-small-text {
+        top: 75px !important;
+        left: 50px !important
+    }
+
+    .four-time-text {
+        font-size: 13px !important;
+        left: 50px !important;
+        top: 162px !important;
+    }
+
+    .inc-img {
+        left: 50px !important;
+        top: 205px !important;
+    }
+
+    .logo-1 {
+        left: 490px !important;
+        top: 152px !important;
+    }
+
+    .logo-2 {
+        left: 490px !important;
+        top: 170px !important;
+    }
+
+    .logo-3 {
+        left: 345px !important;
+        top: 203px !important;
+    }
+
+    .inc-text {
+        font-size: 13px !important;
+        line-height: 17px !important;
+        top: 178px !important;
+        left: 50px !important;
+    }
+
+    .slider-inc-container {}
+
+    .slide-one-btn {
+        left: 50px !important;
+        padding: 15px 14px !important;
+        top: 105px !important;
+    }
+
+    .slide-one {}
+
+    .slide-two-big-text {
+        left: 50px !important;
+        top: 75px !important;
+    }
+
+    .slide-two-small-text {
+        top: 105px !important;
+        left: 50px !important
+    }
+
+    .slide-two-btn {
+        left: 17px !important;
+        padding: 15px 14px !important;
+        top: 135px !important;
+    }
+
+    .slide-two {}
+
+    .slide-two-big-text {
+        left: 50px !important;
+        top: 75px !important;
+    }
+
+    .slide-two-small-text {
+        top: 105px !important;
+        left: 50px !important
+    }
+
+    .slide-two-btn {
+        left: 50px !important;
+        padding: 15px 14px !important;
+        top: 135px !important;
+    }
+
+    .slide-three {}
+
+    .slide-three-big-text {
+        left: 50px !important;
+        top: 75px !important;
+    }
+
+    .slide-three-small-text {
+        top: 105px !important;
+        left: 50px !important
+    }
+
+    .slide-three-btn {
+        left: 50px !important;
+        padding: 15px 14px !important;
+        top: 135px !important;
+    }
+
+    .slide-four {}
+
+    .slide-four-big-text {
+        left: 17px !important;
+        top: 75px !important;
+    }
+
+    .slide-four-small-text {
+        top: 105px !important;
+        left: 50px !important
+    }
+
+    .slide-four-btn {
+        left: 50px !important;
+        padding: 15px 14px !important;
+        top: 135px !important;
+    }
+
+    .tparrows.preview1,
+    .tparrows.preview1::after {
+        font-size: 24px;
+        height: 36px !important;
+        line-height: 38px !important;
+        width: 36px !important;
+    }
+
+    .mobile-banner-container {}
+
+    .web-dev {
+        width: 90%;
+    }
+
+    .web-dev-bullets-box {
+        padding: 0 16px;
+        width: 60%;
+    }
+
+    .web-dev-two-sols .creative-bullets-box {
+        padding: 0 16px;
+        width: 60%;
+    }
+
+    .one-forth-pod {
+        display: inline-block;
+        margin-right: 10px;
+        width: 23.13%;
+    }
+
+    .web-dev-banner {
+        background-image: url("../images/enterprise-app-dev-banner.png");
+        background-size: cover;
+        float: left;
+        height: 200px;
+        width: 100%;
+    }
+
+    .web-dev-bullet-full-width {
+        width: 90%;
+    }
+
+    .web-dev-inner-bullet {
+        padding: 0;
+    }
+
+    .creative-image-pod {
+        height: auto;
+        overflow: hidden;
+    }
+
+    .top-banner-text {
+        color: #fff;
+        font-size: 26px;
+        font-weight: bold;
+        margin-left: 35px;
+        margin-top: 25px;
+    }
+
+    .mobile-dev-bullets-container {
+        float: left;
+        margin-bottom: 20px;
+        padding: 0 20px;
+        width: 96%;
+    }
+
+    .direction-container {
+        padding: 26px 0;
+    }
+
+    .mobile-dev-banner {
+        background-image: url("../images/mobile-dev-banner.jpg");
+        background-size: cover;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .blockchain-banner {
+        background-image: url(../images/blockchain-banner.jpg);
+        background-size: cover;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .it-eng-banner {
+        background-image: url("../images/It-engg-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .csr-banner {
+        background-image: url("../images/csr-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .diversity-banner {
+        background-image: url("../images/diversity-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+
+    .pharma-banner {
+        background-image: url("../images/risk-compliance-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .msp-main-banner {
+        background-image: url("../images/msp-inclusion-landing-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+
+    .professional-banner {
+        background-image: url("../images/professional-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .msp-staff-banner {
+        background-image: url("../images/msp-program-support-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .market-banner {
+        background-image: url("../images/marketing-creative-banner.png");
+        background-size: 100%;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+
+    .cloud-banner {
+        height: 200px;
+        width: 100%;
+    }
+
+    .cloud-banner .top-banner-text-small {
+        width: 80%;
+    }
+
+    .cloud-small-heading {
+        margin-top: 30px;
+    }
+
+    .creative-small-heading {
+        margin-top: 30px;
+    }
+
+    .cloud-bullets {
+        width: 90%;
+    }
+
+    .bigdata-banner {
+        background-image: url("../images/big-data-banner.jpg");
+        background-size: cover;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .modal-job-left-section {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .remodal {
+        padding: 20px !important;
+    }
+
+    .job-detail-bottom-spacing {
+        display: inline-block;
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+
+    .job-detail-bottom-spacing:nth-child(4) {
+        margin-right: 0px;
+    }
+
+    .job-left-text {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+
+    .remodal-close {
+        left: 20px !important;
+    }
+
+    .job-title {
+        text-align: center;
+        font-size: 23px;
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+
+    .job-apply-btn {
+        display: block;
+        font-size: 24px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .modal-job-right-section {
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .job-detail-row {
+        max-height: 350px;
+        min-height: 150px;
+    }
+
+    .job-calendar-details {
+        display: table;
+        margin: 0 auto;
+    }
+
+    .main-container {
+        display: table;
+        margin: 0 auto;
+        /* width: 740px; */
+        width: 96%;
+    }
+
+    header {
+        float: left;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        width: 100%;
+        height: 34px;
+    }
+
+    .mobile-web-dev-tech-services {
+        margin-top: 20px;
+    }
+
+    .mobile-dev-page-heading-container {
+        margin-bottom: 40px;
+        margin-top: 35px;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .logo {
+        display: inline-block;
+        float: left;
+        margin-left: 5px;
+        position: relative;
+        top: 3px;
+        width: 230px;
+    }
+
+    .menu-btn {
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+    }
+
+    .services-logos {
+        padding: 0;
+        text-align: center;
+        display: table;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .service-logo-pod {
+        display: inline-block;
+        float: left;
+        height: 95px;
+        position: relative;
+        width: 104px;
+    }
+
+    .service-logo-pod img {
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        vertical-align: middle;
+        width: 64px;
+    }
+
+    .medium-box-fluid {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .small-box-fluid {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .solutions-primary-text {
+        color: #413829;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 12px;
+        text-align: left;
+        text-transform: uppercase;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .network-image {
+        background-image: url("../images/img1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220px;
+    }
+
+    .mad-image {
+        background-image: url("../images/img2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220px;
+    }
+
+    .ewd-image {
+        background-image: url("../images/img3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220px;
+    }
+
+    .qa-image {
+        background-image: url("../images/img4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220px;
+    }
+
+    .box-content-text {
+        height: 220px;
+        padding: 0 30px;
+    }
+
+    .new-landing-column .box-content-text {
+        height: 400px;
+        padding: 0 30px;
+    }
+
+    footer {
+        padding: 12px 0;
+        text-align: center;
+    }
+
+    .service-image {
+        height: auto;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .service-text {
+        padding: 15px;
+    }
+
+    #landing-service .owl-nav {
+        bottom: 0;
+        display: table;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        width: 88%;
+    }
+
+    .contact-form {
+        padding: 70px 20px 50px;
+    }
+
+    .contact-form-small-text {
+        width: auto;
+    }
+
+    .contact-form {
+        width: auto;
+    }
+
+    .group {
+        border-right: 0 none !important;
+        margin-bottom: 45px;
+        width: 100%;
+    }
+
+    .submit-btn {
+        clear: both;
+        display: table;
+        float: none;
+        margin: 0 auto;
+        width: 135px;
+    }
+
+    .service-banner {
+        background-image: url("../images/IT-consulting-services-banner.png");
+        height: 200px;
+        width: 100%;
+    }
+
+    .devops-banner {
+        background-image: url("../images/devops-banner.png");
+        height: 200px;
+        width: 100%;
+    }
+
+    .healthcare-banner {
+        background-image: url("../images/healthcare-inner-banner.jpg");
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 100%;
+    }
+
+    .clinical-life-sciences-banner-banner {
+        background-image: url("../images/clinical-banner.png");
+        height: 200px;
+        width: 100%;
+    }
+
+    .top-banner-text {
+        color: #fff;
+        font-size: 34px;
+        font-weight: bold;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .one-third-pod {
+        display: inline-block;
+        width: 32%;
+        position: relative;
+    }
+
+
+
+
+    .pod-image>img {
+        width: 100%;
+    }
+
+    .small-text-pod-after-banner {
+        padding: 0 20px;
+    }
+
+    .sol-cater-text {
+        font-size: 33px;
+        font-weight: 300;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        padding: 0 35px;
+    }
+
+    .catering-services-pod {
+        width: 100%;
+        width: 20%;
+    }
+
+    .small-text-pod-after-banner {
+        margin: 25px 0;
+    }
+
+    .services-container-box-space .one-third-pod-small-text {
+
+        padding: 0;
+    }
+
+    .see-also {
+        color: #ffffff;
+        font-size: 22px;
+
+    }
+
+    .see-more-solutions .one-third-pod-btn-white img {
+        width: auto;
+    }
+
+    .see-more-solutions {
+        background-color: #704d88;
+        height: 438px;
+    }
+
+    .see-more-services {
+        background-color: #704d88;
+
+    }
+
+    .netsol-text {
+        color: #fff;
+        font-size: 21px;
+        line-height: 25px;
+        width: 100%;
+
+
+    }
+
+    .services-row-col:nth-child(2) {
+        text-align: center;
+        flex-basis: 50%;
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .netpace-sol-txt {
+        color: #fff;
+        font-size: 35px;
+        font-weight: bold;
+        line-height: 35px;
+        width: 100%;
+    }
+
+    .cloudEnablement-banner {
+        background-image: url("../images/cloud-banner.jpg");
+        background-size: cover;
+        height: 200px;
+        width: 100%;
+    }
+
+    .about-banner {
+        background-image: url("../images/about.jpg");
+        background-size: cover;
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .case-banner {
+        background-image: url("../images/case-studies-banner.png");
+        background-size: cover;
+        float: left;
+        height: 200px;
+        width: 100%;
+    }
+
+    .two-pods-cases .one-third-pod-text {
+        padding: 0;
+    }
+
+    .case-study-center-heading {
+        color: #ff0000;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .case-slider {
+        width: 100% !important;
+        margin: 0 auto 20px;
+    }
+
+    .slider-title {
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .case-study-center-small-text {
+        color: #413829;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+
+    .case-half-pod-container .half-pod-box {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .two-pods-cases .half-pod-box {
+        display: inline-block;
+        width: 48%;
+    }
+
+    .item .one-third-pod-text {
+        padding: 0px;
+        height: 285px;
+    }
+
+    .item .one-third-pod-text {
+        padding: 0 16px;
+    }
+
+    .one-third-pod-small-text {
+        padding: 0;
+    }
+
+    .one-third-pod-head-text {
+        padding: 26px 0;
+    }
+
+    .one-third-pod-btn {
+        padding: 27px 0;
+    }
+
+    .solutions-small-service-text {
+        font-size: 32px;
+        margin-bottom: 20px;
+        margin-top: 45px;
+    }
+
+    .solutions-page-pods .one-third-pod-text {
+        height: 285px;
+        padding: 0 16px;
+    }
+
+    .services-page-pods .one-third-pod-text {
+
+        padding: 0 16px;
+    }
+
+
+
+
+    .services-page-pods .one-third-pod-btn {
+
+        padding: 27px 0;
+
+    }
+
+    .solutions-page-pods .one-third-pod-btn {
+
+        padding: 27px 0;
+
+    }
+
+    .solutions-services-small-pods {
+        text-align: center;
+    }
+
+    .solutions-services-small-pods a div {
+        margin: 15px;
+    }
+
+    .solutions-one-third-pod {
+        height: auto;
+    }
+
+    .solutions-banner {
+        background-image: url("../images/banner-solutions.jpg");
+        background-size: cover;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .top-banner-text-small {
+        color: #fff;
+        font-size: 18px;
+        margin-left: 0px;
+        margin-top: 10px;
+        line-height: 22px;
+    }
+
+    .half-pod-box {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .solutions-banner .banner-container {
+        margin-top: 20px;
+    }
+
+    .cloudEnablement-banner .banner-container {
+        margin-top: 20px;
+    }
+
+    .about-banner .banner-container {
+        margin-top: 20px;
+    }
+
+    .case-banner .banner-container {
+        margin-top: 20px;
+    }
+
+    .about-us-pod-container div:nth-child(1) {
+        color: #413829;
+        display: inline-block;
+        font-size: 22px;
+    }
+
+    .about-us-pod-container div:nth-child(3) {
+        color: #413829;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 22px;
+        margin-top: 12px;
+        width: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about-us-pod-container div:nth-child(2) {
+        color: #010101;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .about-us-pod-container {
+        padding: 16px;
+    }
+
+    .about-us-pod {
+        height: 200px;
+    }
+
+    .row {
+        float: left;
+    }
+
+    .about-us-project-method {
+        padding: 0px 16px;
+    }
+
+    .mobile-dev-bullets-container ul li {
+        font-size: 18px;
+        color: #413829;
+        line-height: 22px;
+        padding-left: 20px;
+    }
+
+    .about-us-project-method div:nth-child(1) {
+        color: #2a2e32;
+        font-size: 28px;
+        font-weight: 300;
+        margin-top: 25px;
+    }
+
+    .about-us-project-method div:nth-child(2) {
+        color: #413829;
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 24px;
+    }
+
+    .about-us-project-method ul li {
+        color: #413829;
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 20px;
+    }
+
+    .about-us-qa {
+        padding: 0 16px;
+    }
+
+    .about-us-qa p {
+        color: #413829;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .career-banner {
+        background-image: url("../images/career.jpg");
+        background-size: cover;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .career-banner .banner-container {
+        margin-top: 20px;
+    }
+
+    .box-content-button {
+        margin-top: 10px;
+    }
+
+    .box-content-button img {
+        width: 25px;
+    }
+
+    .contact-banner {
+        background-image: url("../images/contact.jpg");
+        background-size: cover;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .contact-banner .banner-container {
+        margin-top: 20px;
+    }
+
+    .contact-col-box {
+        margin: 25px 0 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 0;
+    }
+
+    .map-heading {
+        color: #2a2e32;
+        font-size: 32px;
+        font-weight: 300;
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    .google-map {
+        height: 280px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .career-container-box-space .one-third-pod-text {
+        height: auto;
+        padding: 0;
+    }
+
+    .mobile-open-positions .one-third-pod {
+        margin-bottom: 20px;
+    }
+
+    .mobile-career-contact .contact-form {
+        display: table;
+        margin: 20px auto 0;
+    }
+
+    .one-third-pod img {
+        width: auto;
+    }
+
+    .one-third-pod-btn img {
+        width: auto;
+    }
+
+    .pushy ul li {
+        border-bottom: 1px solid #626262;
+    }
+
+    .pushy-submenu ul li:last-child {
+        border-bottom: 0px solid #626262;
+    }
+
+    .mobile-open-positions .one-third-pod-text {
+        /* height: 275px; */
+        padding: 0 16px;
+    }
+
+    .mobile-open-positions .one-third-pod-btn {
+
+        padding: 27px 0;
+
+    }
+
+    .main-container-block {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .creative-banner {
+        background-image: url("../images/creative-banner.jpg");
+        background-size: cover;
+        float: left;
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .creative-services-img {
+        width: auto;
+    }
+
+
+
+    .tech-box-3-col .creative-services-img {
+        width: 200px;
+    }
+
+
+    .one-forth-pod .creative-services-img {
+        width: 90%;
+    }
+
+    .creative-bullets-box {
+        padding: 0 16px;
+        width: auto;
+    }
+
+    .one-third-pod .image-fixed-width-190 {
+        width: 190px;
+    }
+
+    .creative-page-box .creative-bullets-box {
+        display: inline-block;
+        padding: 0 16px;
+        width: 60%;
+    }
+
+    .creative-page-box .creative-small-heading {
+        margin-top: 0;
+    }
+
+
+
+    .creative-banner .top-banner-text {
+        margin-top: 25px;
+    }
+
+    .owl-nav {
+        display: table;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        top: -72px;
+        width: 98%;
+    }
+
+    .owl-dots {
+        display: table;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .creative-services-img-pod {
+        height: 135px;
+        position: relative;
+    }
+
+    .imgLiquidFill {
+        height: 200px;
+    }
+
+    .one-third-pod-btn-white {
+        margin-top: 60px;
+        padding: 27px;
+    }
+
+    .solutions-services-pod .one-third-pod-small-text {
+        height: 380px;
+        padding: 0;
+    }
+
+    .solutions-services-pod .one-third-pod-text {
+        height: 390px;
+        overflow: hidden;
+        padding: 0 16px;
+        position: relative;
+    }
+
+    .solutions-services-pod .one-third-pod-btn {
+        bottom: 0;
+        padding: 27px 0;
+        position: absolute;
+    }
+
+    .solutions-one-third-pod .see-more-bg {
+        height: 687px;
+    }
+
+    .one-third-pod-btn-white img {
+        width: auto;
+    }
+
+    .one-third-pod-small-text {
+        font-size: 15px;
+    }
+
+    .solutions-services-pod .see-more-bg .one-third-pod-text {
+        height: 590px;
+    }
+
+    .one-third-pod-btn-white {
+        margin-top: 60px;
+        bottom: 0;
+        padding: 27px 0;
+        position: absolute;
+    }
+
+    .cloud-two-cols {}
+
+    .cloud-img-hide {
+        display: none;
+    }
+
+    .creative-banner .banner-container {
+        margin-top: 30px;
+    }
+
+    .bigdata-banner .banner-container {
+        margin-top: 15px;
+    }
+
+    .cloud-banner .banner-container {
+        margin-top: 20px;
+    }
+
+    .mobile-dev-banner .banner-container {
+        margin-top: 20px;
+    }
+
+    .web-dev-page .web-dev-bullets-box {
+        padding: 0 16px;
+        width: 96%;
+    }
+
+    .web-dev-page .web-dev-image-pod {
+        display: none;
+    }
+
+    .web-dev-two-sols .web-dev-inner-bullet-small-heading {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+    .tech-box img {
+        max-width: 100px;
+    }
+
+    .about-us-clients img {
+        max-width: 150px;
+    }
+
+
+    .owl-nav {
+        display: table;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        top: -72px;
+        width: 98%;
+    }
+
+    .owl-dots {
+        display: table;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .banner {
+        position: relative;
+        width: 100%;
+        height: 500px !important;
+    }
+
+    .banner-small-heading {
+        font-size: 13px !important
+    }
+
+    .services-logos {
+        padding: 35px 0;
+        text-align: center;
+        display: table;
+        width: 100%;
+    }
+
+    .service-image {
+        height: 183px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    #landing-service .owl-nav {
+        bottom: 0;
+        display: table;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        width: 88%;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+
+
+    .hide-on-ipad-portrait {
+        display: none;
+    }
+
+    .show-on-ipad-portrait {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+    .about-us-pod-container div:nth-child(3) {
+        width: auto;
+        color: #413829;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 28px;
+        margin-top: 12px;
+    }
+
+    .mobile-open-positions .one-third-pod-text {
+        height: 260px;
+        position: relative;
+    }
+
+    .mobile-open-positions .one-third-pod-btn {
+        bottom: 0;
+        position: absolute;
+    }
+
+    .main-container-block {
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        width: 980px;
+    }
+
+    .case-slider {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .solutions-services-pod {
+        position: relative;
+    }
+
+    .solutions-services-pod .solutions-one-third-pod {
+        height: 640px;
+    }
+
+    .solutions-services-pod .solutions-one-third-pod .one-third-pod-btn {
+        bottom: 0;
+        padding: 27px;
+        position: absolute;
+    }
+
+    .one-third-pod-btn-white {
+        bottom: 0;
+        margin-top: 110px;
+        padding: 27px;
+        position: absolute;
+    }
+
+    .one-seventh-pod {
+        width: 60%;
+    }
+
+    .one-forth-pod {
+        width: 23.13%;
+    }
+
+    .case-half-pod-container .half-pod-box {
+        display: inline-block;
+        width: 48%;
+    }
+
+    .item .case-half-pod-container .half-pod-box {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .item .one-third-pod-text {
+        padding: 0px;
+    }
+
+    .creative-page-heading-container {
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    .service-logo-pod {
+        display: inline-block;
+        width: 125px;
+    }
+
+    .service-logo-pod img {
+        vertical-align: middle;
+        width: 60%;
+    }
+
+    .solutions-services-small-pods {
+        text-align: center;
+    }
+
+    .solutions-services-small-pods a div {
+        margin: 15px;
+    }
+
+    .about-us-pod {
+        height: 307px;
+    }
+
+    .banner-container {
+        display: table;
+        margin: 0 auto;
+        width: 980px;
+    }
+
+    .hide-mobile-content {
+        display: none;
+    }
+
+    .main-container {
+        display: table;
+        margin: 0 auto;
+        position: relative;
+        width: 980px;
+        z-index: 40;
+    }
+
+    .one-third-pod {
+        display: inline-block;
+        width: 32%;
+    }
+
+    .case-container-box-space .one-third-pod {
+        display: flex !important;
+
+    }
+
+    .see-more-services {
+        background-color: #704d88;
+
+        position: relative;
+    }
+
+    .see-more-solutions {
+        background-color: #704d88;
+
+    }
+
+    .one-third-pod-btn-white {
+        margin-top: 110px;
+        padding: 27px;
+    }
+
+    .catering-services-pod {
+        width: 195px;
+    }
+
+    .sol-cater-text {
+        margin-top: 40px;
+    }
+
+    .header-menu ul li {
+        padding-right: 30px;
+    }
+
+
+    footer .header-menu ul li {
+        padding-right: 20px;
+
+    }
+
+
+
+    .contact-form {
+        padding: 70px 30px 50px;
+        width: 964px;
+    }
+}
+
+@media only screen and (min-device-width: 1281px) and (max-device-width: 999999999px) {
+    .hide-mobile-content {
+        display: none;
+    }
+
+    .solutions-services-pod {
+        position: relative;
+    }
+
+    .solutions-services-pod .solutions-one-third-pod {
+        height: 600px;
+    }
+
+    .solutions-services-pod .one-third-pod-btn {
+        bottom: 0;
+        padding: 27px;
+        position: absolute;
+    }
+
+    .solutions-services-pod .solutions-one-third-pod .one-third-pod-btn-white {
+        bottom: 0;
+        padding: 27px;
+        position: absolute;
+    }
+
+    .owl-nav {
+        display: table;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        top: -72px;
+        width: 98%;
+    }
+
+    .owl-dots {
+        display: table;
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .tp-leftarrow {
+        left: 20px !important;
+    }
+
+    .tp-rightarrow {
+        right: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #button {
+        display: none;
+    }
+
+    .flex-four-col-full .tech-box {
+        flex: 1;
+    }
+
+
+    .pod-text-height-fix {
+        height: 100px;
+    }
+
+    .hide-on-large-devices {
+        display: none !important
+    }
+
+
+    .one-third-pod-btn {
+        padding: 27px;
+
+
+    }
+
+    .web-revamp-fix .one-third-pod-btn {
+        padding: 27px;
+        position: relative;
+        bottom: 10px;
+
+    }
+
+
+
+    .one-third-pod-text {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .see-more-services .one-third-pod-text {
+        height: inherit !important;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    .hide-on-desktop {
+        display: none;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1023px) {
+
+    .white-text-mobile {
+        color: white !important;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+
+    .header-menu {
+        display: none;
+    }
+
+    .menu-btn {
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+        width: 33px;
+    }
+
+    header {
+        padding-bottom: 7px;
+        padding-top: 12px;
+    }
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    .header-menu ul li {
+        padding-right: 20px;
+    }
+
+    .logo {
+        width: 246px;
+    }
+
+    .header-menu {
+        display: inline-block;
+        float: right;
+        position: relative;
+        top: -7px;
+    }
+
+    footer .header-menu {
+        top: 0px;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 9999px) {
+
+    .case-study-safeway .owl-dots,
+    .case-study-cisco .owl-dots,
+    .case-study-safeway .owl-nav,
+    .case-study-cisco .owl-nav {
+        display: none !important;
+    }
+
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1280px) {}
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 9999px) {
+    .hide-mobile-content {
+        display: none;
+    }
+
+    .mobile-banner-container .black-txt {
+        color: #000
+    }
+
+    .mobile-banner-container .white-txt {
+        color: #fff
+    }
+
+
+}

@@ -1,0 +1,44 @@
+#main {padding: 0px 0 80px 0 !important;}
+.vc_tta-tabs-container { flex-basis:380px}
+.who-div .vc_column-inner {}
+.service-btn button {border: 1px solid #999 !important;
+    padding: 10px 21px !important;
+    color: #000 !important; margin-bottom: 30px!important;}
+    .services-box .wpb_wrapper {-webkit-box-shadow: 0px 9px 19px -1px rgba(220,220,220,1);
+-moz-box-shadow: 0px 9px 19px -1px rgba(220,220,220,1);
+box-shadow: 0px 9px 19px -1px rgba(220,220,220,1);background: #fff !important;}
+.services-box .wpb_wrapper .wpb_wrapper { box-shadow: 0px 0px 0px 0px rgba(220,220,220,0);}
+.latest-updates-form input {background: #484848;}
+.latest-updates-form .contact-form p {text-align: center;}
+.latest-updates-form .dt-btn-submit {background: #cd2121!important; padding: 0px 34px;
+    border-radius: 0px!important;}
+.ashrae-img img {transform: scaley(1.046);}
+.ashraelarge-img img {transform: scalex(1.015);}
+.vc_tta-tabs-container {flex: 1 !important;}
+.vc_tta-panels-container {flex: 2 !important;}
+.expertise-div .vc_tta-tabs-container ul li {padding:0px 0px 0px 50px;}
+.expertise-div .vc_tta-tabs-container ul li a {margin-left:60px; }
+.expertise-div .vc_tta-panels-container .vc_tta-panel-body {padding: 0px!important;}
+.expertise-div .vc_tta-panels-container .vc_tta-panel-body .wpb_wrapper {padding: 40px 80px; color:#fff; }
+.expertise-div .vc_tta-panels-container .vc_tta-panel-body .wpb_wrapper h3 {color: #fff;}
+@media (max-width: 991px) and (min-width: 768px) {
+.who-we-are-text h1 {margin-top: 10px !important; margin-bottom: 10px!important;}
+    .who-we-are-text p {line-height: 15px !important;}
+    .who-we-are-img-box img {transform: scaley(1.15)!important;}
+    .who-we-are-text-box .vc_column-inner {padding-top: 0px!important;}
+    .who-we-are-text-box .wpb_single_image {padding-bottom: 10px !important;padding-top: 14px !important;}
+    .who-we-are-text-box .wpb_single_image img {width:50px!important;}
+    .who-we-are-text-box .vc_custom_1523942163529 {margin-bottom: 2px !important;}
+    .who-we-are-text-box h3 {font-size:14px!important;}
+    .who-we-are-text-box p {line-height: 14px!important;}
+    .who-we-are-text-box .vc_custom_1523599695355 {margin-top: 15px !important;margin-bottom: 13px !important;}
+    .ashraelarge-img img {transform: scalex(1)!important;}
+    .ashrae-text-box .vc_custom_1523943002376 { margin-bottom: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 4px !important; padding-left: 0px !important;}
+    .ashrae-text-box h3 {font-size: 14px!important;line-height: 16px!important;}
+    .ashrae-text-box .vc_custom_1524052854370 {padding-top: 14px!important;}
+    .ashrae-text-box .wpb_single_image{margin-bottom: 10px !important;}
+    .ashrae-text-box .wpb_single_image img {width:55px!important;}
+    .ashrae-text-box .vc_custom_1523604694707 {margin-bottom: 32px !important;padding: 0 8px;}
+    .ashrae-img img {transform: scaley(1.08)!important;}
+    .vc_custom_1523876549621 {padding-top: 1px !important; padding-bottom: 2px !important;}
+}
