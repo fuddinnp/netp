@@ -960,8 +960,8 @@
     <!-- cookies function -->
     <div id="cookie-div" class="cookies-wrap animate__animated animate__fadeInUp cookie-div" style="display: none;">
         <div class="content-wrap">
-            <p>This website uses cookies to ensure you get the best experience on our website. <a href="#"
-                    id="myBtn">Read more</a></p>
+            <p>This website uses cookies to ensure you get the best experience on our website. <a href="javascript:;"
+                    data-remodal-target="taylor1">Read more</a></p>
             <div class="cookies-btn-wrap">
                 <button onclick="enableCookies()">Accept</button>
             </div>
@@ -969,22 +969,24 @@
 
     </div>
 
-    <!--modal html-->
-    <div id="myModal" class="modal">
 
-        <!-- Modal content -->
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <div class="popup-scroller mCustomScrollbar" data-mcs-theme="dark">
-                <!-- <h2 id="modal1Title">Remodal</h2> -->
-                <h3 class="mt-3">
+    <div class="remodal" data-remodal-id="taylor1">
+        <button data-remodal-action="close" class="remodal-close">
+            <div>Close</div>
+        </button>
+        <div class="job-detail-row case-modals-cols  mCustomScrollbar" data-mcs-theme="dark">
+            <!-- <div class="modal-job-left-section"> <img src="images/case-logo-taylor.svg"> </div> -->
+            <div class="modal-job-right-section" style="width: 100%;">
+
+                <h3 class="job-bottom-spacing job-heading mt-3">
                     Cookie Policy for Netpace:
                 </h3>
                 <p>
-                    This is the Cookie Policy for Netpace: accessible from <a href="https://www.netpace.com"
+                    This is the Cookie Policy for Netpace: accessible from <a style="color: #413829;
+                text-decoration: underline; font-size: 16px;" href="https://www.netpace.com"
                         target="_blank">www.netpace.com</a>
                 </p>
-                <h4>What Are Cookies</h4>
+                <h4 class="job-bottom-spacing job-heading ">What Are Cookies</h4>
                 <p>
                     As is common practice with almost all professional websites this site uses cookies, which are tiny
                     files that are downloaded to your computer, to improve your experience. This page describes what
@@ -992,7 +994,7 @@
                     also share how you can prevent these cookies from being stored however this may downgrade or 'break'
                     certain elements of the sites functionality.
                 </p>
-                <h4>
+                <h4 class="job-bottom-spacing job-heading ">
                     How We Use Cookies
                 </h4>
                 <p>
@@ -1001,7 +1003,7 @@
                     features they add to this site. It is recommended that you leave on all cookies if you are not sure
                     whether you need them or not in case they are used to provide a service that you use.
                 </p>
-                <h4>
+                <h4 class="job-bottom-spacing job-heading ">
                     Disabling Cookies
                 </h4>
                 <p>
@@ -1011,7 +1013,7 @@
                     functionality and features of this site. Therefore it is recommended that you do not disable
                     cookies.
                 </p>
-                <h4>
+                <h4 class="job-bottom-spacing job-heading ">
                     The Cookies We Set
                 </h4>
                 <p>
@@ -1099,13 +1101,23 @@
                 </p>
                 <ul>
                     <li>
-                        Email: <a href="mailto:privacy@netpace.com">privacy@netpace.com</a>
+                        Email: <a href="mailto:privacy@netpace.com" style="color: #413829;
+                    text-decoration: underline; font-size: 16px;">privacy@netpace.com</a>
                     </li>
                 </ul>
+                <!--
+        <ul>
+            <li> Rich AJAZ-based interface supporting Windows, Linux and Mac platforms</li>
+            <li> Real-time integration with USC Mainframe systems</li>
+            <li> Extensive reporting capabilities especially for power users with support to create Ad hoc reports and data export in variety of formats</li>
+            <li> Built complex security mechanism for data authorization for individual users</li>
+        </ul>
+-->
             </div>
         </div>
-
     </div>
+
+
 
 
 
